@@ -23,12 +23,6 @@ Create a new bookmark with location:
 javascript:void((function(){location.href='http://0.0.0.0:8080?url='%20+%20encodeURIComponent(location.href);})());
 ```
 
-## Deploy to fly.io
-
-```shell
-fly launch
-```
-
 ## TODO
 
 - [x] Dockerfile
