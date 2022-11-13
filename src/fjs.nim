@@ -29,7 +29,7 @@ proc index*(ctx: Context) {.async.} =
         let newContent = replaceContent(content, baseUrl)
         resp newContent
     else:
-        resp "no url provided, usage: /?url=https://www.google.com"
+        resp "no url provided, usage: <a href=\"/?url=https://www.google.com\">0.0.0.0:8080?url=https://www.google.com</a>"
 
 let app = newApp()
 app.get("/", index)
