@@ -23,7 +23,6 @@ proc index*(ctx: Context) {.async.} =
         let baseUrl = url.getBaseUrl()
         let content = getWebsiteContent(url)
         let newContent = replaceUrls(content, baseUrl)
-        echo newContent == content
         resp newContent
     else:
         resp "no url provided, usage: /?url=https://www.google.com"
