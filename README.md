@@ -27,5 +27,5 @@ javascript:void((function(){location.href='http://0.0.0.0:8080?url='%20+%20encod
 
 - [x] Dockerfile
 - [x] Bookmark
-- [ ] Remove `<script>` elements
+- [x] Remove `<script>` elements
 - [ ] Host
